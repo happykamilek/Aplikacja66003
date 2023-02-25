@@ -41,7 +41,7 @@ public class Main {
 
                         int option = 0;
                         while (option != 5) {
-                                // Prompt user for input
+                                
                                 System.out.println("Wybierz opcje: \n1. Dodaj pojazd \n2. Wyswietl pojazd\n3. Usun pojazd\n4. Modyfikuj pojazd\n5. Wyjscie z programu");
                                 option = scanner.nextInt();
                                 switch (option) {
@@ -96,7 +96,7 @@ public class Main {
                                                 break;
 
                                         case 3:
-                                                // Delete data from Pojazd table
+                                                // Delete
                                                 System.out.println("Podaj ID tablicę rejstracyjna");
                                                 int idToDelete = scanner.nextInt();
 
